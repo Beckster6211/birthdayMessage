@@ -1,4 +1,5 @@
 import React, {useState, useEffect, useRef} from 'react';
+import { createTextSpanFromBounds } from 'typescript';
 // import logo from './logo.svg';
 import './App.css';
 
@@ -726,7 +727,6 @@ context.font = "90px Comic Sans MS";
 context.fillStyle = "black";
 context.fillText("Birthday", 1000, 890);
 context.closePath();
-
     }
 
   }, [context]);
