@@ -451,14 +451,6 @@ context.stroke();
 context.closePath();
 
 //balloon 3
-context.beginPath();
-context.ellipse(360, 300, 100, 55, Math.PI / -2.3, 0, Math.PI * 2);
-context.fillStyle = "orange";
-context.fill();
-context.lineWidth = 1;
-context.strokeStyle = "black";
-context.stroke();
-context.closePath();
 //string
 context.beginPath();
 context.moveTo(340, 400);
@@ -478,6 +470,17 @@ context.lineWidth = 1;
 context.strokeStyle = "black";
 context.stroke();
 context.closePath();
+
+context.beginPath();
+context.ellipse(360, 300, 100, 55, Math.PI / -2.3, 0, Math.PI * 2);
+context.fillStyle = "orange";
+context.fill();
+context.lineWidth = 1;
+context.strokeStyle = "black";
+context.stroke();
+context.closePath();
+
+
 
 //smiley face
 //hat
@@ -510,7 +513,7 @@ context.strokeStyle = "black";
 context.stroke();
 context.closePath();
 context.beginPath();
-context.arc(1600, 460, 15, 0, Math.PI * 2, false);
+context.arc(1608, 461, 15, 0, Math.PI * 2, false);
 context.fillStyle = "blue";
 context.fill();
 context.lineWidth = 1;
@@ -518,7 +521,7 @@ context.strokeStyle = "black";
 context.stroke();
 context.closePath();
 context.beginPath();
-context.arc(1605, 515, 15, 0, Math.PI * 2, false);
+context.arc(1605, 511, 15, 0, Math.PI * 2, false);
 context.fillStyle = "green";
 context.fill();
 context.lineWidth = 1;
