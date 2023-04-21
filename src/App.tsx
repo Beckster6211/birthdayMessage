@@ -26,7 +26,7 @@ context.closePath();
 
 //cake
 context.beginPath();
-context.ellipse(900, 645, 100, 50, Math.PI / 1, 0, Math.PI * 2);
+context.ellipse(500, 645, 100, 50, Math.PI / 1, 0, Math.PI * 2);
 context.fillStyle = "chocolate";
 context.fill();
 context.lineWidth = 2;
